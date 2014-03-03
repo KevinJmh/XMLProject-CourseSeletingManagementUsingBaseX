@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="course_show.xsl"?>
+<course id="c002">
+    <name>Numeric Calculation</name>
+    <teaID>t001</teaID>
+    <description>Numeric Calculatio</description>
+  </course>

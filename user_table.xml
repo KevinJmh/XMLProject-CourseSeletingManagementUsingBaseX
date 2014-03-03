@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="user_table.xsl"?>
+<!DOCTYPE user_table [
+<!ELEMENT user_table (user)*>
+<!ELEMENT user (type , password)>
+<!ELEMENT type (#PCDATA)>
+<!ELEMENT password (#PCDATA)>
+<!ATTLIST user id ID #REQUIRED>
+]>
+<user_table>
+    <user id="a001">        
+        <type>admin</type>
+        <password>1</password>
+    </user>
+    <user id="a002">        
+        <type>admin</type>
+        <password>2</password>
+    </user>
+    <user id="s001">
+        <type>student</type>
+        <password>1</password>
+    </user>
+    <user id="s002">
+        <type>student</type>
+        <password>2</password>
+    </user>
+    <user id="s003">
+        <type>student</type>
+        <password>3</password>
+    </user>
+    <user id="s004">
+        <type>student</type>
+        <password>4</password>
+    </user>
+    <user id="t001">
+        <type>teacher</type>
+        <password>1</password>
+    </user>
+    <user id="t002">
+        <type>teacher</type>
+        <password>2</password>
+    </user>
+    <user id="t003">
+        <type>teacher</type>
+        <password>3</password>
+    </user>
+    
+<user id="scao"><type>student</type><password>cao</password></user></user_table>

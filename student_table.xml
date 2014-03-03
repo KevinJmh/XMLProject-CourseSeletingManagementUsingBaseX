@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="student_table.xsl"?>
+<!DOCTYPE student_table [
+<!ELEMENT student_table (user)*>
+<!ELEMENT user (name , detail)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT detail (#PCDATA)>
+<!ATTLIST user id ID #REQUIRED>
+]>
+<student_table>
+    <user id="s001">        
+        <name>Jiang Manhua</name>
+        <detail>2010 Computer Science</detail>
+    </user>
+
+    <user id="s002">        
+        <name>Chen Jiahao</name>
+        <detail>2010 Computer Science</detail>
+    </user>
+
+    <user id="s003">       
+        <name>Liu Qiaowei</name>
+        <detail>2010 Computer Science</detail>
+    </user>
+
+    <user id="s004">       
+        <name>Su Anjie</name>
+        <detail>2010 Computer Science</detail>
+    </user>
+<user id="scao"><name>cao</name><detail/></user></student_table>

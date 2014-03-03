@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sc_table.xsl"?>
+<!DOCTYPE sc_table [
+<!ELEMENT sc_table (sc)*>
+<!ELEMENT sc (stuID , courseID , comment)>
+<!ELEMENT stuID (#PCDATA)>
+<!ELEMENT courseID (#PCDATA)>
+<!ELEMENT comment (#PCDATA)>
+<!ATTLIST sc id ID #REQUIRED>
+]>
+<sc_table>
+    
+    
+    <sc id="s001c006">        
+        <stuID>s001</stuID>
+        <courseID>c006</courseID>
+        <comment>soso</comment> 
+    </sc>
+
+    <sc id="s002c002">
+        <stuID>s002</stuID>
+        <courseID>c002</courseID>
+        <comment>detail here</comment>
+    </sc>
+    <sc id="s002c006">        
+        <stuID>s002</stuID>
+        <courseID>c006</courseID>
+        <comment>detail here</comment>
+    </sc>
+
+    
+    <sc id="s003c005">        
+        <stuID>s003</stuID>
+        <courseID>c005</courseID>
+        <comment>很好</comment>
+    </sc>
+
+    <sc id="s004c002">        
+        <stuID>s004</stuID>
+        <courseID>c002</courseID>
+        <comment>detail here</comment>
+    </sc>
+
+</sc_table>

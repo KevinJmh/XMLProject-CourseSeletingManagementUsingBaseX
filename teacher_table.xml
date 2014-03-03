@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- <?xml-stylesheet type="text/xsl" href="teacher_table.xsl"?> -->
+
+<!DOCTYPE teacher_table[
+<!ELEMENT teacher_table (user*)>
+<!ELEMENT user (name,detail)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT detail (#PCDATA)>
+<!ATTLIST user id  ID  #REQUIRED> 
+]>
+
+<teacher_table>
+
+    <user id="t001">        
+        <name>Chen Shuangping</name>
+        <detail>Department of Computer technology to teaching and research</detail>
+    </user>
+
+    <user id="t002">        
+        <name>Zhou Mi</name>
+        <detail>Department of Computer technology to teaching and research</detail>
+    </user>
+
+    <user id="t003">        
+        <name>Du Ping</name>
+        <detail>Department of Mathematics</detail>
+    </user>
+
+</teacher_table>

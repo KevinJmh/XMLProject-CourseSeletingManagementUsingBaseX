@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- <?xml-stylesheet type="text/xsl" href="admin_table.xsl"?> -->
+<!DOCTYPE admin_table [
+<!ELEMENT admin_table (user)*>
+<!ELEMENT user (name , detail)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT detail (#PCDATA)>
+<!ATTLIST user id ID #REQUIRED>
+]>
+<admin_table>
+    <user id="a001">        
+        <name>Xie Lisha</name>
+        <detail>Office of Academic Affairs</detail>
+    </user>
+
+    <user id="a002">        
+        <name>Liu Qiying</name>
+        <detail>Office of Academic Affairs</detail>
+    </user>
+
+</admin_table>

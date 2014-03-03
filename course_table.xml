@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="course_table.xsl"?>
+<course_table>
+  <course id="c002">
+    <name>Numeric Calculation</name>
+    <teaID>t001</teaID>
+    <description>Numeric Calculatio</description>
+  </course>
+  <course id="c004">
+    <name>Software Engineering</name>
+    <teaID>t002</teaID>
+    <description>no description</description>
+  </course>
+  <course id="c005">
+    <name>Artificial Intelligence</name>
+    <teaID>t002</teaID>
+    <description>no description</description>
+  </course>
+</course_table>

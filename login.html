@@ -1,0 +1,61 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>教师评价系统</title>
+	  <link  href="css/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<script type="text/javascript">
+//用cookies自动登录
+// document.write(document.cookie);
+// document.write(getCookie("userType"));
+// document.write(getCookie("userID"));
+//自动登录
+ // getCookie("userType");
+function getCookie(name){ 
+    var arr = document.cookie.match(new RegExp("(^|)"+name+"=([^;]*)(;|$)")); 
+    if(arr!= null){
+        setTimeout("document.form1.submit()",10) 
+  return unescape(arr[2]);
+ }
+ return null; 
+} 
+
+</script>
+
+<body>
+<div align="center">
+
+<form name="form1" action="login.php"  method="post" id="login">
+<h1 align="center">LOGIN</h1>
+
+<div id="inputs">
+        <input id="username" type="text"  name="username" placeholder="Username" autofocus required>   
+        <input id="password" type="password"  name="password" placeholder="Password" required>
+    </div>
+    <div id="actions">
+        <input type="submit" id="submit" value="Log in">
+       
+    </div>
+ 
+    
+   <!-- <table>              
+            <tr>
+                <td>用户名: </td>
+                <td><input type="text" name="username" ></td>
+            </tr>
+            <tr>
+                <td>密码：</td>
+                 <td><input type="password" name="password" ></td>
+            </tr>
+            <tr>
+                <td></td>-->
+             <!--    <td><input type="reset" value="重置">
+                            <input type="submit" value="登录">
+                    </td>
+            </tr>
+    </table>   --> 
+</form>
+</div>
+</body>
+</html>
